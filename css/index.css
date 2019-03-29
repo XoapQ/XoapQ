@@ -1893,13 +1893,14 @@ img:hover {
 }
 #local-search .local-search__hit-item a {
   display: block;
-  color: #4c4948;
+  color: #2e2e2e;
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
 }
 #local-search .local-search__hit-item a:hover {
   color: #1e8dd3;
+  text-decoration: underline;
 }
 #local-search .local-search-stats__hr {
   display: none;
@@ -1907,4 +1908,12 @@ img:hover {
 #local-search .search-result-list {
   overflow-y: auto;
   max-height: 10.5rem;
+}
+#local-search .search-result-list .search-result-content {
+  padding-left: 1.5rem;
+  margin: 0.2rem 0;
+  color: #888;
+}
+#local-search .search-result-list .search-result-content .search-keyword {
+  color: #1e8dd3;
 }

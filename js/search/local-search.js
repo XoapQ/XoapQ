@@ -90,6 +90,27 @@ $(function () {
             // show search results
             if (isMatch) {
               str += '<div class="local-search__hit-item"><a href="' + dataUrl + '" class="search-result-title">' + dataTitle + '</a>' + '</div>'
+              // === show the content of search results ===
+              // cut out 100 characters
+              var start = indexContent - 20;
+              var end = indexContent + 80;
+              if (start < 0) {
+                start = 0;
+              }
+              if (start == 0) {
+                end = 100;
+              }
+              if (end > dataContent.length) {
+                end = dataContent.length;
+              }
+              var match_content = dataContent.substr(start, end);
+              // highlight all keywords
+              keywords.forEach(function (keyword, i) {
+                var regS = new RegExp(keyword, "gi");
+                match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+              });
+              str += "<p class=\"search-result-content\">" + match_content + "...</p>"
+
               count += 1
               $('.local-search-stats__hr').show()
             }
