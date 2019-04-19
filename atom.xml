@@ -5,9 +5,9 @@
   <subtitle>Remember all the sadness and frustration, and let it go</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.jairo-qu.top/"/>
+  <link href="https://jairo-qu.top/"/>
   <updated>2019-04-10T12:07:47.749Z</updated>
-  <id>https://www.jairo-qu.top/</id>
+  <id>https://jairo-qu.top/</id>
   
   <author>
     <name>Jairo Qu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>自建ss服务器教程</title>
-    <link href="https://www.jairo-qu.top/ss-tutorial.html"/>
-    <id>https://www.jairo-qu.top/ss-tutorial.html</id>
+    <link href="https://jairo-qu.top/ss-tutorial.html"/>
+    <id>https://jairo-qu.top/ss-tutorial.html</id>
     <published>2019-03-29T10:16:08.000Z</published>
     <updated>2019-04-10T12:07:47.749Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="日常技术" scheme="https://www.jairo-qu.top/categories/%E6%97%A5%E5%B8%B8%E6%8A%80%E6%9C%AF/"/>
+      <category term="日常技术" scheme="https://jairo-qu.top/categories/%E6%97%A5%E5%B8%B8%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="ss" scheme="https://www.jairo-qu.top/tags/ss/"/>
+      <category term="ss" scheme="https://jairo-qu.top/tags/ss/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.jairo-qu.top/hello-world.html"/>
-    <id>https://www.jairo-qu.top/hello-world.html</id>
+    <link href="https://jairo-qu.top/hello-world.html"/>
+    <id>https://jairo-qu.top/hello-world.html</id>
     <published>2019-03-25T07:54:17.364Z</published>
     <updated>2019-03-25T07:54:17.364Z</updated>
     
